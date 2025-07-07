@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --dark-2: #474747;
+  --dark-3: #757575;
+  --dark-4: #a3a3a3;
+  --dark-5: #d1d1d1;
+}
+
+.header {
+  background-image: url("./images/developer.png"), url("./images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+/* Nav css adding */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 200px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.title-color {
+  color: #fd6e0a;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-links li,
+li a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
+
+.dark-2 {
+  color: var(--dark-2);
+}
+
+.primary-btn {
+  padding: 18px 36px 19px 35px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-profile {
+  width: 580px;
+}
