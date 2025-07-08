@@ -40,6 +40,16 @@ html {
   text-align: center;
 }
 
+.primary-btn {
+  padding: 18px 36px 19px 35px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 /* Nav style adding */
 nav {
   display: flex;
@@ -72,15 +82,6 @@ li a {
 
 .dark-2 {
   color: var(--dark-2);
-}
-
-.primary-btn {
-  padding: 18px 36px 19px 35px;
-  background-color: #fd6e0a;
-  border-radius: 5px;
-  font-size: 20px;
-  color: white;
-  border: none;
 }
 
 /* banner styles */
@@ -195,4 +196,43 @@ main {
 
 .resume-btn {
   margin-top: 50px;
+}
+
+/* footer style */
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.footer-column p {
+  color: var(--dark-2);
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+footer input[type="text"],
+footer input[type="email"] {
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+}
+
+footer textarea {
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
 }
